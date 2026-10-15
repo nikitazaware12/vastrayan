@@ -1,0 +1,9 @@
+{
+  "name": "vastrayan-textiles",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -c tailwind.config.js -i assets/css/input.css -o assets/css/style.css --minify",
+    "watch": "tailwindcss -c tailwind.config.js -i assets/css/input.css -o assets/css/style.css --watch"
+  },
+  "devDependencies": { "tailwindcss": "3.4.17" }
+}
